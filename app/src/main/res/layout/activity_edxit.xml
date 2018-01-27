@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    android:orientation="vertical"
+    tools:context="com.example.lyy.quartertheeightgroup.view.avtivity.EdxitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#0080FF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/e_text"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="创作"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/simp_video"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cirl_shap"
+            android:scaleType="centerInside"
+            android:src="@drawable/videotape" />
+
+        <ImageView
+            android:id="@+id/simp_bj"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/simp_video"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/cirl_shap"
+            android:scaleType="centerInside"
+            android:src="@drawable/bj" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/d_simp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:placeholderImage="@drawable/tx"
+            app:roundAsCircle="true" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/d_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天蝎沙河" />
+
+            <TextView
+                android:id="@+id/d_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/d_text" />
+
+            <TextView
+                android:id="@+id/d_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/d_text"
+                android:paddingLeft="100dp" />
+        </RelativeLayout>
+
+        <ImageView
+
+            android:layout_marginLeft="150dp"
+            android:id="@+id/d_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/badd" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/d_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="#C0C0C0"></View>
+</LinearLayout>
